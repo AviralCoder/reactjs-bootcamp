@@ -1,0 +1,51 @@
+.hero {
+    height: 60vh;
+}
+
+.start-btn {
+    font-size: 1.2rem;
+    width: 200px;
+}
+
+.hero p {
+    width: 400px;
+}
+
+.card-instructor {
+    transition: 0.3s ease;
+}
+
+.card-instructor:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .hero h1 {
+        text-align: center;
+    }
+
+    .hero img {
+        margin-top: 30px;
+    }
+
+    .hero p {
+        width: 300px;
+    }
+
+    .hero button {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .newsletter {
+        text-align: center;
+        flex-direction: column;
+    }
+}
